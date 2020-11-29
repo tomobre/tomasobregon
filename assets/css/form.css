@@ -1,0 +1,21 @@
+.contact-form-response {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.none {
+  display: none;
+}
+
+.contact-form-loader {
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact-form-loader img {
+  margin-top: 3vh;
+}
