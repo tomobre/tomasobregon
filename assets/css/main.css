@@ -4801,3 +4801,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     visibility: visible;
   }
 }
+
+#detail {
+  font-size: 0.7rem;
+}
