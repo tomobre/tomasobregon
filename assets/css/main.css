@@ -4802,6 +4802,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   }
 }
 
-#detail {
+#project6Detail {
   font-size: 0.7rem;
 }
+
