@@ -21,7 +21,7 @@
 		<div id="intro">
 			<h1>Tomas<br />
 				Obregon</h1>
-			<p id="meDescription"> Programador con conocimientos de HTML, CSS, JavaScript, JQuery, y React </p>
+			<p id="meDescription"> Programador con conocimientos de HTML, CSS, JavaScript, BootStrap, y React </p>
 			<ul class="actions">
 				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 			</ul>
@@ -73,6 +73,30 @@
 
 			<!-- Posts -->
 			<section class="posts">
+				<article>
+					<header>
+
+						<h2>Budg App<br />
+						</h2>
+					</header>
+					<a href="https://tomobre.github.io/budgapp/" target="_blank" class="image fit"><img
+							src="images/Captura de pantalla 2021-02-23 a la(s) 09.52.06.png" alt="" /></a>
+					<p id="project11">Segundo proyecto fullStack, utilizando en esta ocasion MySql como base de datos para un
+						sitio web donde se puede crear un usuario e ingresar a una cuenta que permite mantener una constancia de
+						ingresos y egresos economicos segun diferentes categorias, pudiendo filtrar por estas, generar nuevas
+						operaciones o modificarlas.<br>
+						<b>Conocimientos implementados:</b> HTML, CSS, Javascript, React, React-BootStrap, Modal-React,
+						Styled-components, Axios, NodeJS,Express,
+						MySql, JWT, Express-validator.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://tomobre.github.io/budgapp/" target="_blank" class="button enter">entrar</a>
+						</li>
+					</ul>
+				</article>
+
+
+
 				<article>
 					<header>
 
@@ -348,6 +372,7 @@
 			$project6 = d.querySelector("#project6"),
 			$project10 = d.querySelector("#project10"),
 			$titleProject10 = d.querySelector("#titleProject10"),
+			$project11 = d.querySelector("#project11"),
 			$project8 = d.querySelector("#project8"),
 			$project9 = d.querySelector("#project9"),
 			$project7 = d.querySelector("#project7"),
@@ -366,7 +391,7 @@
 
 				$title.innerHTML = "PROJECTS";
 				$enter.forEach(el => { el.innerHTML = "CHECK IT OUT" })
-				$meDescription.innerHTML = "Web developer with knowledge in  HTML, CSS, JavaScript, JQuery, and React "
+				$meDescription.innerHTML = "Web developer with knowledge in  HTML, CSS, JavaScript, Bootstrap, and React "
 				$titleDescription.innerHTML = "Here you can find my professional portfolio with my lastest works which I have been workiing on since I started in this journey to become a frontend developer. Altough I focus on programming with	Javascript, It is important to be aware that I have been implementing different tools to expand my knowledge, such as  AJAX, different external APIS, Adobe Photoshop y Adobe Illustrator, Bootstrap, Stripe, and formsubmit.com as the neccesary backend replacement  to generate a form functionality"
 				$project1.innerHTML = "One of my first projects in which I start excercising my DOM knowledge with Javascript, using geolocation, date calculation, audio and video media, among others.<br><b>Implemented knowledges:</b> HTML, CSS, Vanilla Javascript"
 				$titleProject1.innerHTML = "D.O.M. in Javascript"
@@ -380,6 +405,7 @@
 				$project6.innerHTML = "With the help of two external apis and react, I generated a button that delivers a joke about the famous Chuck Norris told by a Robot. I used an Api for the robot images and another one for the jokes.<br> <b>Implemented knowledges:</b> HTML, CSS, Javascript, React."
 				$project10.innerHTML = "First fullstack project motivated by a job opportunity challenge, where I used MongoDB as a website´s database where you can create a User, load Money, check your virtual wallet  and buy a hipotetic service with an ID and TOKEN verification  on your mail. <br><b>Implemented knowledges:</b> HTML, CSS, Javascript, React, BootStrap, Axios, NodeJS, MongoDB,NodeMailer and Express."
 				$titleProject10.innerHTML = "EpayCo M.E.R.N Project"
+				$project11.innerHTML = "My second fullstack project, this time using MySql database for a website where you can crate you own user,  and keep updated your different incomes/outcomes according to different categories,being also able to filter through this, generating new operations or modifying a specific one.<br><b>Implemented knowledges:</b> HTML, CSS, Javascript, React, React - BootStrap, Modal - React, Styled-components, Axios, NodeJS, Express, MySql, JWT, Express-validator."
 				$project8.innerHTML = "Created a website for the professional actress Marisa Napitello which includes his biography, trayectory and photo gallery made entirely with  Vanilla Javascript.<br> <b>Implemented knowledges:</b> HTML, CSS, Vanilla Javascript."
 				$project9.innerHTML = "With the PokeApi implementation, I generated a website with the Pokemon Saga history and a final Pokemon  list.<br><b>Implemented knowledges:</b> HTML, CSS, Javascript and BootStrap."
 				$project7.innerHTML = "I made a website for Di Lorenzo Restaurant implementing AJAX with Fetch using an external API from Stripe, that works as backend to give me the food and payment data<br><b>implemented knowledges:</b> HTML, CSS, Javascript, Bootstrap, and Stripe."
@@ -410,6 +436,7 @@
 				$project6.innerHTML = "Con React y ayuda de dos apis externas, genere un sitio web que al presionar un boton te entrega un chiste sobre la reconocida figura de Chuck Norris contado por un robot. Uitlice una API para las imagenes de robots y otra API para los chistes.<br> <b>Conocimientos implementados:</b> HTML, CSS, Javascript, React."
 				$project10.innerHTML = "Primer proyecto fullStack impulsado por un challenge que tiene como ejemplo a EpayCo, donde utilice MongoDB como base de datos para un sitio web donde se puede crear un usuario con una billetera virtual, cargar dinero, consultar el saldo y comprar servicios con una verificacion de un Token y un ID que llegará al mail.< br ><b>Conocimientos implementados:</b> HTML, CSS, Javascript, React, BootStrap, Axios, NodeJS, MongoDB,NodeMailer y Express."
 				$titleProject10.innerHTML = "Epayco Proyecto M.E.R.N"
+				$project11.innerHTML = "Segundo proyecto fullStack, utilizando en esta ocasion MySql como base de datos para un sitio web donde se puede crear un usuario e ingresar a una cuenta que permite mantener una constancia de	ingresos y egresos economicos segun diferentes categorias, pudiendo filtrar por estas, generar nuevas	operaciones o modificarlas.<br><b>Conocimientos implementados:</b> HTML, CSS, Javascript, React, React - BootStrap, Modal - React, Styled-components, Axios, NodeJS, Express,MySql, JWT, Express - validator."
 				$project8.innerHTML = "Un sitio web para la actriz profesional Marisa Napitello que incluye su biografia, su trayectoria y galeria de fotos completamente realizada con Vanilla Javascript.<br> <b>Conocimientos implementados:</b> HTML, CSS, Vanilla Javascript."
 				$project9.innerHTML = "Con la implementacion de la API externa de PokeApi, generé un simple sitio web con la historia de la saga Pokemon y la lista final de todos los Pokemon de la tan reconocida serie.<br><b>Conocimientos	implementados:</b> HTML, CSS, Javascript y BootStrap."
 				$project7.innerHTML = "Sitio web para restaurante Di Lorenzo implementando AJAX con Fetch para la API externa de Stripe, que funciona como backend para traer los datos de las comidas y permite realizar pagos.<br><b>Conocimientos implementados:</b> HTML, CSS, Javascript, Bootstrap, Stripe."
